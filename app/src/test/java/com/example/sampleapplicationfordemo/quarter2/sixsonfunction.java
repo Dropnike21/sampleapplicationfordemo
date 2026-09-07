@@ -6,13 +6,7 @@ public class sixsonfunction {
     // --- 1. THE LOGIC (What you are teaching in Quarter2) ---
 
     public int calculateReward(int score) {
-        if (score >= 90) {
-            return 500; // 500 points for an A
-        } else if (score >= 75) {
-            return 100; // 100 points for passing
-        } else {
-            return 0;   // 0 points for failing
-        }
+
     }
 
     // --- 2. THE TEST (How to run it in Android Studio) ---
