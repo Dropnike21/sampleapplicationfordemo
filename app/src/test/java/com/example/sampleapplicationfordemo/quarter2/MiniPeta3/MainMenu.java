@@ -6,7 +6,7 @@ public class MainMenu {
     public void start(Scanner scanner) {
         int balance = 1000;
         boolean isRunning = true;
-        int username = 8888888;
+        String username = "8888888";
 
         while (isRunning) {
             System.out.println("========================================");

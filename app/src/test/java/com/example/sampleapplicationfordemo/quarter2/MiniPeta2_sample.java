@@ -2,7 +2,7 @@ package com.example.sampleapplicationfordemo.quarter2;
 
 import org.junit.Test;
 
-public class MiniPeta1_sample {
+public class MiniPeta2_sample {
     @Test
     public void printMyProfile() {
         // --- 1. THE INPUT (Storing your personal details in variables) ---
