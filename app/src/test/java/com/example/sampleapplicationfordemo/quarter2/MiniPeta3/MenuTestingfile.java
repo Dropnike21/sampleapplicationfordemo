@@ -14,7 +14,7 @@ public class MenuTestingfile {
 
         // PART 1: The Transaction Loop
         int transactionCount = 1;
-        while (transactionCount <= 3) {
+        while (transactionCount <= 4) {
             System.out.println("Generating inputs for Transaction #" + transactionCount);
 
             if (transactionCount == 1) {
@@ -36,9 +36,13 @@ public class MenuTestingfile {
         automatedInput.append("9999\n"); // 3. Enter new PIN
         automatedInput.append("3\n");    // 4. Go back to Main MenuTestingfile
 
+        automatedInput.append("4\n");
+        automatedInput.append("123123123\n");
+
+
         // PART 3: Finally Exit the ATM
         System.out.println("Generating inputs to Exit");
-        automatedInput.append("4\n");
+        automatedInput.append("5\n");
 
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
 

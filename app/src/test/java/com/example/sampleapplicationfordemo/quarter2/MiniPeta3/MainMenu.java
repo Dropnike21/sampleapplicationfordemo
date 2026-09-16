@@ -6,6 +6,7 @@ public class MainMenu {
     public void start(Scanner scanner) {
         int balance = 1000;
         boolean isRunning = true;
+        int username = 8888888;
 
         while (isRunning) {
             System.out.println("========================================");
@@ -37,7 +38,12 @@ public class MainMenu {
                 SettingsFeature settings = new SettingsFeature();
                 settings.execute(scanner);
 
-            } else if (choice == 4) {
+            }else if (choice == 4) {
+                // Link to the sub-menu
+                changename changename = new changename();
+                changename.execute(scanner,username);
+
+            } else if (choice == 5) {
                 System.out.println("Thank you for using the ATM. Goodbye!");
                 isRunning = false;
             } else {
