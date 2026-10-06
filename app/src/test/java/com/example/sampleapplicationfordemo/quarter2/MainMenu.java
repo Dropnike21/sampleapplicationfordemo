@@ -1,4 +1,4 @@
-package com.example.sampleapplicationfordemo.quarter2.MiniPeta3;
+package com.example.sampleapplicationfordemo.quarter2;
 
 import java.util.Scanner;
 
